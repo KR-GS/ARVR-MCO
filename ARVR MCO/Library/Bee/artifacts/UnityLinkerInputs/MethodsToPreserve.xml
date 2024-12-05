@@ -1,0 +1,31 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ChangeFloorButton">
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+			<method name="triggerFloorChange"/>
+		</type>
+		<type fullname="TriggerDoor">
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+			<method name="playAnimation"/>
+		</type>
+	</assembly>
+</linker>
