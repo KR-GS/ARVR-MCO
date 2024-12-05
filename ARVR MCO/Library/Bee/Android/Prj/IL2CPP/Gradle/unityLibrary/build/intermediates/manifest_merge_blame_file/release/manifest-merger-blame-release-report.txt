@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+11-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-52
+13-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:17-49
+14    <uses-feature
+14-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-91
+15        android:name="android.hardware.vulkan.version"
+15-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-63
+16        android:required="false" />
+16-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:64-88
+17    <uses-feature
+17-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-88
+18        android:name="android.hardware.touchscreen"
+18-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-60
+19        android:required="false" />
+19-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:61-85
+20    <uses-feature
+20-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-99
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-71
+22        android:required="false" />
+22-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:72-96
+23    <uses-feature
+23-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-108
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-80
+25        android:required="false" />
+25-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:81-105
+26    <uses-feature
+26-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-111
+27        android:name="android.hardware.vr.headtracking"
+27-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-64
+28        android:required="true"
+28-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:65-88
+29        android:version="1" />
+29-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:89-108
+30
+31    <application android:extractNativeLibs="true" >
+31-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-33:17
+31-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+32        <meta-data
+32-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:5-69
+33            android:name="unity.splash-mode"
+33-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-48
+34            android:value="0" />
+34-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:49-66
+35        <meta-data
+35-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-74
+36            android:name="unity.splash-enable"
+36-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-50
+37            android:value="True" />
+37-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:51-71
+38        <meta-data
+38-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-78
+39            android:name="unity.launch-fullscreen"
+39-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-54
+40            android:value="True" />
+40-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+41        <meta-data
+41-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-84
+42            android:name="unity.render-outside-safearea"
+42-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-60
+43            android:value="True" />
+43-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:61-81
+44        <meta-data
+44-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-81
+45            android:name="notch.config"
+45-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-43
+46            android:value="portrait|landscape" />
+46-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:44-78
+47        <meta-data
+47-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+48            android:name="unity.auto-report-fully-drawn"
+48-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-60
+49            android:value="true" />
+49-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:61-81
+50        <meta-data
+50-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+51            android:name="unity.strip-engine-code"
+51-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+52            android:value="true" />
+52-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+53
+54        <activity
+54-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-27:16
+55            android:name="com.unity3d.player.UnityPlayerGameActivity"
+55-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:240-297
+56            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+56-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:15-124
+57            android:enabled="true"
+57-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:125-147
+58            android:exported="true"
+58-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:148-171
+59            android:hardwareAccelerated="false"
+59-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:172-207
+60            android:launchMode="singleTask"
+60-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:208-239
+61            android:resizeableActivity="false"
+61-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:298-332
+62            android:screenOrientation="landscape"
+62-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:333-370
+63            android:theme="@style/BaseUnityGameActivityTheme" >
+63-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:371-420
+64            <intent-filter>
+64-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:7-22:23
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-69
+65-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:19-66
+66
+67                <action android:name="android.intent.action.MAIN" />
+67-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-61
+67-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-58
+68
+69                <category android:name="com.oculus.intent.category.VR" />
+69-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:9-66
+69-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:19-63
+70            </intent-filter>
+71
+72            <meta-data
+72-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:7-82
+73                android:name="unityplayer.UnityActivity"
+73-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:18-58
+74                android:value="true" />
+74-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:59-79
+75            <meta-data
+75-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:7-77
+76                android:name="android.app.lib_name"
+76-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:18-53
+77                android:value="game" />
+77-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:54-74
+78            <meta-data
+78-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:7-70
+79                android:name="notch_support"
+79-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:18-46
+80                android:value="true" />
+80-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:47-67
+81            <meta-data
+81-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:7-81
+82                android:name="com.oculus.vr.focusaware"
+82-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:18-57
+83                android:value="true" />
+83-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:58-78
+84        </activity>
+85
+86        <meta-data
+86-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:5-97
+87            android:name="com.samsung.android.vr.application.mode"
+87-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:16-70
+88            android:value="vr_only" />
+88-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:71-94
+89        <meta-data
+89-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:5-91
+90            android:name="com.unity.xr.oculus.LowOverheadMode"
+90-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:16-66
+91            android:value="false" />
+91-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:67-88
+92        <meta-data
+92-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:5-88
+93            android:name="com.unity.xr.oculus.LateLatching"
+93-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:16-63
+94            android:value="false" />
+94-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:64-85
+95        <meta-data
+95-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:5-93
+96            android:name="com.unity.xr.oculus.LateLatchingDebug"
+96-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:16-68
+97            android:value="false" />
+97-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:69-90
+98        <meta-data
+98-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-91
+99            android:name="com.oculus.supportedDevices"
+99-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-58
+100            android:value="quest2|eureka" />
+100-->D:\School Work\Github Repository\ARVR-MCO\ARVR MCO\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:59-88
+101    </application>
+102
+103</manifest>
