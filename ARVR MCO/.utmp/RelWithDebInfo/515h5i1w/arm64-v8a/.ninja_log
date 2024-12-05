@@ -1,0 +1,21 @@
+# ninja log v5
+470	814	7550606821354269	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d0f880c4fb51f81e
+28	1689	7550606830105222	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	dff961c0ecbf1d37
+103	1228	7550606825385440	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9595e1aef3dd6aa4
+815	1670	7550606827856141	D:/School Work/Github Repository/ARVR-MCO/ARVR MCO/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/515h5i1w/obj/arm64-v8a/libswappywrapper.so	75cd49e82d7189e4
+293	1607	7550606829269084	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	9046669ec279141
+8	1381	7550606826905931	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c15b1ff26b832c9b
+151	1367	7550606826790830	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	73759962b85f0ae1
+412	1692	7550606830159011	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	7e919589f2370a83
+60	1628	7550606829449312	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5195b3fe05383eb8
+1692	2047	7550606832577097	D:/School Work/Github Repository/ARVR-MCO/ARVR MCO/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/515h5i1w/obj/arm64-v8a/libgame.so	1d76df5aa68c3175
+586	920	7550799386360628	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d0f880c4fb51f81e
+173	1463	7550799391707489	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9595e1aef3dd6aa4
+34	1528	7550799392386294	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c15b1ff26b832c9b
+921	1637	7550799391632205	D:/School Work/Github Repository/ARVR-MCO/ARVR MCO/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/515h5i1w/obj/arm64-v8a/libswappywrapper.so	75cd49e82d7189e4
+359	1666	7550799393815160	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	9046669ec279141
+9	1711	7550799394242718	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	dff961c0ecbf1d37
+440	1721	7550799394382366	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	73759962b85f0ae1
+283	1878	7550799395962964	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5195b3fe05383eb8
+533	1888	7550799396065615	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	7e919589f2370a83
+1889	2231	7550799398438906	D:/School Work/Github Repository/ARVR-MCO/ARVR MCO/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/515h5i1w/obj/arm64-v8a/libgame.so	1d76df5aa68c3175
